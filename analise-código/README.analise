@@ -1,0 +1,23 @@
+Código que resolve uma tabela dada do jogo Sudoku
+
+A tabela inicial está dentro do código,
+para criar um nova tabela inicial, o código fonte (prog.c) deve ser alterado.
+
+O programa prog.c pode ser compilado com:
+    gcc prog.c -o prog
+
+E executado com:
+    ./prog
+
+--
+
+1) O arquivo saida.txt contem o profiling do código prog.c utilizando o gprof.
+
+2) Um ponto de gargalo do código é que ele usa backtracking até achar a primeira solução valida.
+
+3) Os programa progO0, progO1, progO2, progO3 e progOfast foram compilados utilizando as flags 
+O0, O1, O2, O3 e Ofast, respectivamente.
+
+4) Para este programa, as flags que otimização não fizeram uma diferença notavel no tempo de execução dos programas.
+    Utilizando o comando "time" no linux, o tempo real de execução ficou em torno de 0.013s - 0.015s.
+
