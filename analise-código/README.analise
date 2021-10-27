@@ -1,4 +1,4 @@
-Código que resolve uma tabela dada do jogo Sudoku
+Código que resolve uma dada tabela do jogo Sudoku
 
 A tabela inicial está dentro do código,
 para criar um nova tabela inicial, o código fonte (prog.c) deve ser alterado.
